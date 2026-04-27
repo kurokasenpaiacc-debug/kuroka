@@ -2,30 +2,20 @@
   "name": "hitori",
   "version": "1.1.8",
   "description": "Bot WhatsApp Using Lib Baileys Multi Device",
-  "keywords": [
-    "whatsapp-bot",
-    "baileys-md",
-    "bot-wa",
-    "multi-device"
-  ],
+  "keywords": ["whatsapp-bot", "baileys-md", "bot-wa", "multi-device"],
   "author": "Nazedev",
   "license": "MIT",
   "homepage": "https://github.com/nazedev/hitori#readme",
-  "bugs": {
-    "url": "https://github.com/nazedev/hitori/issues"
-  },
+  "bugs": { "url": "https://github.com/nazedev/hitori/issues" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nazedev/hitori.git"
   },
   "type": "module",
   "main": "start.js",
-  "directories": {
-    "lib": "lib",
-    "src": "src"
-  },
+  "directories": { "lib": "lib", "src": "src" },
   "engines": {
-    "node": ">=20.0.0"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node start.js",
@@ -63,12 +53,6 @@
     "yt-search": "^2.10.4",
     "ytdl-core": "npm:@distube/ytdl-core@latest"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  },
-  "overrides": {
-    "baileys": {
-      "jimp": "^0.16.2"
-    }
-  }
+  "devDependencies": { "nodemon": "^3.1.14" },
+  "overrides": { "baileys": { "jimp": "^0.16.2" } }
 }
